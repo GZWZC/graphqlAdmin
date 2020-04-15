@@ -26,8 +26,7 @@ router.beforeEach(async(to, from, next) => {
 
   // dynamically add accessible routes
   router.addRoutes(accessRoutes)
-  next();
-
+  next()
 
   // if (hasToken) {
   //   if (to.path === '/login') {
